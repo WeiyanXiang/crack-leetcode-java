@@ -10,6 +10,7 @@ package design.pattern.singleton;
 public class SingleObject {
 
     private static SingleObject instance;
+
     private String value;
 
     public static SingleObject getInstance() {
